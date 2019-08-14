@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sitewards_Captcha",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Additional functionality for magento captcha extension.",
+    "authors": [
+    {
+        "name": "Sitewards Magento Team",
+        "email": "magento@sitewards.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
