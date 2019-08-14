@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Sitewards_Captcha</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
@@ -14,8 +14,8 @@
 2. Go to System -&gt; Configuration -&gt; Customers -&gt; Customer Configuration-&gt;Captcha and select "Email to a Friend" option in Forms field.</description>
     <notes>Released new extension.</notes>
     <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
-    <date>2013-09-18</date>
-    <time>04:00:04</time>
+    <date>2013-10-04</date>
+    <time>07:49:35</time>
     <contents><target name="magecommunity"><dir name="Sitewards"><dir name="Captcha"><dir name="Block"><dir name="Sendfriend"><file name="Send.php" hash="8875265013ec45ffcfe92be6ad2326da"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a268ddaabc47fcbc323e759c873ae869"/></dir><dir name="Model"><file name="CaptchaChecker.php" hash="c6b275af326acd6f2fb95adceb1a23f1"/><file name="Sendfriend.php" hash="5c56a12b97585752cc04ea42c6207540"/></dir><dir name="controllers"><file name="ProductController.php" hash="164a0aa604fd92e30a49ce27a73424ec"/></dir><dir name="etc"><file name="config.xml" hash="fde3ce84e888c2b3fc049a4a59f78b3f"/><file name="system.xml" hash="b84ba97ea80312adb7f38c2187670aa5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_Captcha.xml" hash="abf4c910ece09269ce5d7fc73c3121a7"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Sitewards_Captcha.csv" hash="f76b6cded4bd7c78de96685e5cac0519"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="sitewards"><dir name="captcha"><file name="closepopup.phtml" hash="6e963b95e4d7d568b190414fa0c514f6"/><dir name="sendfriend"><file name="send.phtml" hash="a92861c8a260e03a7712ee375be4ffb2"/></dir></dir></dir></dir><dir name="layout"><dir name="sitewards"><file name="captcha.xml" hash="d28bec040715e0de93f469a0b2e16057"/></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="sitewards"><file name="captcha.js" hash="9662f0c2a5ff7f3eb898df7dd6df39a4"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
